@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Artwork</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #007acc;
+            font-size: 1.8rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-top: 1rem;
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            background: #007acc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Artwork</h1>
+    </header>
+    <div class="container">
+        <h2>Exploring the Relationship Between Mice and Humans</h2>
+        <img src="IMG_0353.jpeg" alt="Artwork Image">
+        <p>This is an illustration I created for a paper soon to be published in <em>Nature Communications</em>. This was a completely new attempt for me, as I sought to convey scientific concepts in an artistic form. The paper focuses on analyzing mouse cancer cells to train a model capable of predicting cancer cell locations in humans.</p>
+        <p>From an artistic perspective, this is also a fascinating theme. In biology, we often rely on experiments with mice to infer responses in humans. While mice and humans seem vastly different on the surface, they are fundamentally similar in many ways.</p>
+        <p>The process of predicting cancer cell locations reminded me of the "Minesweeper" game I used to play as a child. I drew an analogy between cancer cells and mines, constructing a scene that resembles the microenvironment of mouse cells. A human figure navigates this environment, using hints to locate and mark the cancer cells.</p>
+        <p>By reversing the scale and environment of humans and mice, I aim to provide viewers with a new perspective on the relationship between these two species.</p>
+    </div>
+    <footer>
+        <p>Created by LI SHIHUI</p>
+    </footer>
+</body>
+</html>
